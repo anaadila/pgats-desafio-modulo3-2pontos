@@ -1,0 +1,21 @@
+{
+  "name": "pgats-desafio-modulo3-2pontos",
+  "version": "1.0.0",
+  "description": "Desafio do Módulo 3 da pós-graduação em Automação de Testes com função de login e validações de credenciais (sucesso, expirado, usuário não encontrado e senha incorreta), incluindo testes automatizados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "test:report": "npx mocha --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  },
+  "devDependencies": {
+    "open": "^11.0.0"
+  }
+}
